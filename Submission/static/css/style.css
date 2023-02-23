@@ -49,6 +49,7 @@ h1 {
 
 .submit {
   text-align: center;
+ 
 }
 
 /* Button styles have been added for you */
@@ -60,6 +61,7 @@ button {
   border-radius: 0.5rem;
   transition: background-color 150ms;
   cursor: pointer;
+  
 }
 
 button:hover {
@@ -67,3 +69,36 @@ button:hover {
 }
 
 /* Add your form code below */
+* {
+  box-sizing: border-box;
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  border: 2px solid #999;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  width: 100%
+  
+}
+
+.form-control-label {
+  border-radius: 0.5rem;
+  border: 2px solid #999;
+  padding: 1rem;
+  font-size: 1.1rem;
+  width: 4rem
+}
+#address {
+  height: 3rem;
+}
